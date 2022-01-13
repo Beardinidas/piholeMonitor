@@ -17,6 +17,9 @@ If no connection to your PiHole instance is detected - LEDs will radiate in  RED
 
 If PiHole is disabled the LEDS will cycle through through colours running up and down the Module
 
+Lights switch off at: 22:00  
+Lights Switch on at: 07:59:59 
+
 
 # TODO
 Add list of colours that can be easily switched to for displaying Ad percentage  
