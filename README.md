@@ -6,7 +6,7 @@ You will require to have your PiHole Instance on a seprate RaspberryPi than the 
 # Auto Start Script
 sudo nano /etc/rc.local  
 Add the the location the script will run from to the end of the file    
-i.e "python3 /home/username/projects/piholeMonitor/pihole.py &"  
+i.e "python3 /home/username/projects/piholeMonitor/main.py &"  
 ensure the file ends with "exit 0"  
 
 
