@@ -27,8 +27,8 @@ scanSpeed = 4
 blinktON = 0.04
 blinktOFF = 0.0
 sTime = time.time()
-startTime = datetime.strptime('22:00:00', "%H:%M:%S")
-endTime = datetime.strptime('7:59:59', "%H:%M:%S")
+offTime = datetime.strptime('22:00:00', "%H:%M:%S")
+onTime = datetime.strptime('7:59:59', "%H:%M:%S")
 
 
 blinkt.set_clear_on_exit()
@@ -66,7 +66,7 @@ def getBrightness():
 	today = datetime.now()
 	time = today.time()
 
-	if time >= startTime.time() or time <= endTime.time():
+	if time >= offTime.time() or time <= onTime.time():
 		#print("Blinkt is OFF")
 		return blinktOFF
 	else:
