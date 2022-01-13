@@ -22,4 +22,4 @@ Lights Switch on at: 07:59:59
 
 
 # TODO
-Add list of colours that can be easily switched to for displaying Ad percentage  
+
