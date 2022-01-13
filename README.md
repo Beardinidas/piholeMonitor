@@ -18,7 +18,7 @@ If no connection to your PiHole instance is detected - LEDs will radiate in  RED
 If PiHole is disabled the LEDS will cycle through through colours running up and down the Module
 
 Lights switch off at: 22:00  
-Lights Switch on at: 07:59:59 
+Lights Switch on at: 08:00 
 
 
 # TODO
