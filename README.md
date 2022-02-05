@@ -20,6 +20,9 @@ If PiHole is disabled the LEDS will cycle through through colours running up and
 Lights switch off at: 22:00  
 Lights Switch on at: 08:00 
 
+# Requirements
+Download [blinkt](https://github.com/pimoroni/blinkt) python Library
+
 
 # TODO
 
